@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Caculator</title>
+ <link rel="stylesheet" href="./css/calculator.css">
+</head>
+<body>
+ <div class="part" id="part1">
+
+ </div>
+ <div class="part" id="part2">
+
+ </div>
+ <div class="part" id="part3">
+    
+ </div>
+ <script src="./js/calculator.js"></script>
+ <script>
+  const part1 = document.getElementById("part1");
+  const part2 = document.getElementById("part2");  
+  let calculator = new Calculator(part1);
+  let calculator2 = new Calculator(part2);  
+
+  calculator.init();
+  calculator2.init();  
+  
+ </script>
+</body>
+</html>

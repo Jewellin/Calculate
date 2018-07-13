@@ -1,0 +1,68 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.part {
+ display: inline-block;
+ margin: 0 30px;
+}
+.wrapper {
+ margin: 0 auto;
+ margin-left: 50px;
+ display: inline-block;
+ width: 300px;
+ background-color: rgb(233, 233, 233);
+}
+.wrapper span {
+ margin: 5px 20px;
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ line-height: 30px;
+ text-align: center;
+ border: 1px solid darkcyan;
+ cursor: pointer;
+}
+.screen {
+ width: 100%;
+ height: 60px;
+ line-height: 60px;
+ text-align: right;
+ background-color: rgb(243, 243, 243);
+}
+.showResult {
+ width: 100%;
+ height: 20px;
+ font-size: 14px;
+ color: #ccc;
+ text-align: right;
+ background-color: rgb(243, 243, 243);
+}
+.num {
+ border-top: 1px solid rgb(201, 201, 201);
+}
+.num div {   
+ margin: 0 auto;
+ width: 216px;   
+}
+.num .zero {   
+ text-align: right;
+}
+.sign {
+ position: relative;
+ margin: 0 auto;
+ width: 215px;
+ color: rgb(31, 79, 236);       
+}
+.sign .equal {
+ display: inline-block;
+ position: absolute;
+ margin-right: 0;
+ right: 16px;
+ top: 0;
+ width: 40px;
+ height: 70px;
+ line-height: 70px;
+ color: #fff;
+ background-color: rgb(31, 79, 236);
+}
